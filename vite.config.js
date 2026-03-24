@@ -5,7 +5,6 @@ import { handlebarsHelpers } from './src/js/helpers/handlebars/index.js';
 import { globalContext } from './src/data/create-context';
 
 export default defineConfig({
-  base: '/vituum-project/',
   plugins: [
     vituum(),
     handlebars({
