@@ -1,0 +1,34 @@
+{
+  "printWidth": 100,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "proseWrap": "always",
+
+  "plugins": ["prettier-plugin-handlebars"],
+
+  "overrides": [
+    {
+      "files": "*.hbs",
+      "options": {
+        "parser": "glimmer",
+        "singleQuote": false
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "htmlWhitespaceSensitivity": "ignore"
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 80
+      }
+    }
+  ]
+}

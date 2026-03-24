@@ -1,0 +1,19 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/vituum-project/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vituum/vite-plugin-handlebars": "^2.0.2",
+    "prettier": "^3.8.1",
+    "prettier-plugin-handlebars": "^0.0.1",
+    "sass": "^1.98.0",
+    "vite": "^8.0.1",
+    "vituum": "^2.0.1"
+  }
+}
