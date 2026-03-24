@@ -8,6 +8,7 @@ import contacts from './pages/contacts.json';
 import news from './pages/news.json';
 
 const globalContext = {
+  baseUrl: process.env.NODE_ENV === 'production' ? '/megusta-shooting/' : '/',
   seo,
   site,
   socials,
