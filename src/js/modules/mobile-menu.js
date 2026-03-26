@@ -23,7 +23,7 @@ export function initMobileMenu() {
   closeMenuBtn.addEventListener('click', closeMobileMenu);
 
   document.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && mobileMenuContainer.classList.contains('is-open')) {
+    if (event.code === 'Escape' && mobileMenuContainer.classList.contains('is-open')) {
       closeMobileMenu();
     }
   });
